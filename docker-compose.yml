@@ -5,3 +5,4 @@ app:
   volumes:
    - .:/src
   command: "node server.js"
+  restart: always
